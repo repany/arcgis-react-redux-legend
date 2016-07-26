@@ -102,13 +102,13 @@ define(['exports', 'react', 'react-dom', 'react-redux', 'app/components/map-lege
                 var setInitialLegend = _props.setInitialLegend;
 
 
-                var infraLyr = new _MapImageLayer2.default({
-                    url: "https://sampleserver6.arcgisonline.com/arcgis/rest/services/Energy/Infrastructure/MapServer"
+                var imageLyr = new _MapImageLayer2.default({
+                    url: "http://services.arcgisonline.com/arcgis/rest/services/Demographics/USA_Tapestry/MapServer"
                 });
 
                 var map = new _Map2.default({
                     basemap: "dark-gray",
-                    layers: [infraLyr]
+                    layers: [imageLyr]
                 });
 
                 var view = new _SceneView2.default({
@@ -116,8 +116,8 @@ define(['exports', 'react', 'react-dom', 'react-redux', 'app/components/map-lege
                     map: map
                 });
 
-                infraLyr.then(function () {
-                    view.goTo(infraLyr.fullExtent);
+                imageLyr.then(function () {
+                    view.goTo(imageLyr.fullExtent);
                 });
 
                 view.then(function () {
