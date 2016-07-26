@@ -103,7 +103,7 @@ define(['exports', 'react', 'react-dom', 'react-redux', 'app/components/map-lege
 
 
                 var imageLyr = new _MapImageLayer2.default({
-                    url: "https://services.arcgisonline.com/arcgis/rest/services/Specialty/Soil_Survey_Map/MapServer"
+                    url: "https://tmservices1.esri.com/arcgis/rest/services/LiveFeeds/Hurricane_Active/MapServer"
                 });
 
                 var map = new _Map2.default({
