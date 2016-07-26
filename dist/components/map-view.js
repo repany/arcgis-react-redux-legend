@@ -103,7 +103,7 @@ define(['exports', 'react', 'react-dom', 'react-redux', 'app/components/map-lege
 
 
                 var imageLyr = new _MapImageLayer2.default({
-                    url: "http://services.arcgisonline.com/arcgis/rest/services/Demographics/USA_Tapestry/MapServer"
+                    url: "https://services.arcgisonline.com/arcgis/rest/services/Specialty/Soil_Survey_Map/MapServer"
                 });
 
                 var map = new _Map2.default({
