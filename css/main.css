@@ -28,7 +28,7 @@ html, body {
     right: 20px;
     background-color: whitesmoke;
     padding: 0 12px 6px 12px;
-    min-width: 200px;
+    min-width: 280px;
 }
 
 input, label {
@@ -36,21 +36,3 @@ input, label {
     margin-bottom: 4px;
 }
 
-.click-legend-node {
-    cursor: pointer;
-    margin-right: 4px;
-}
-
-.inline-block-display {
-    display: inline-block;
-}
-
-.bottom-margin {
-    margin-bottom: 8px;
-}
-
-.legend-map {
-    padding: 10px 6px;
-    background-color: #ebebeb;
-    font-weight: bold;
-}
